@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Salsita</Authors>
+    <Company>Salsita</Company>
+    <Description>Interfaces to implement Entity Framework Core Many-to-Many pattern.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>TomatoEFC.png</PackageIcon>
+    <RepositoryUrl>https://github.com/salsita18/ManyToManyNetCore</RepositoryUrl>
+    <PackageTags>EntityFrameworkCore NetCore Extension</PackageTags>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\TomatoEFC.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
