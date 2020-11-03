@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyCore", "ManyToManyCore\ManyToManyCore.csproj", "{05A2DEC1-0876-48BF-A909-0AC2C29575E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyToManyCore", "ManyToManyCore\ManyToManyCore.csproj", "{05A2DEC1-0876-48BF-A909-0AC2C29575E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyCore.BasicExample1", "ManyToManyCore.BasicExample1\ManyToManyCore.BasicExample1.csproj", "{BA1BAE09-EFBD-47A4-80C6-98B61010F000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{05A2DEC1-0876-48BF-A909-0AC2C29575E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A2DEC1-0876-48BF-A909-0AC2C29575E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A2DEC1-0876-48BF-A909-0AC2C29575E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
