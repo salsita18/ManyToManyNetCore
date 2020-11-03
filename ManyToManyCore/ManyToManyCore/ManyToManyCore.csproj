@@ -11,7 +11,12 @@
     <PackageIcon>TomatoEFC.png</PackageIcon>
     <RepositoryUrl>https://github.com/salsita18/ManyToManyNetCore</RepositoryUrl>
     <PackageTags>EntityFrameworkCore NetCore Extension</PackageTags>
-    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated class name.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <Copyright>©Salsita</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

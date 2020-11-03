@@ -1,15 +1,15 @@
 ﻿namespace ManyToManyCore
 {
-    public class EntidadIntermedia<TDependent, THolder, TIdDep, TIdHold> where TDependent : IBaseEntity<TIdDep> where THolder : IBaseEntity<TIdHold>
+    public class MiddleEntity<TDependent, THolder, TIdDep, TIdHold> where TDependent : IBaseEntity<TIdDep> where THolder : IBaseEntity<TIdHold>
     {
         public TDependent Dependent { get; set; }
         public THolder Holder { get; set; }
         public TIdDep IdDependent { get; set; }
         public TIdHold IdHolder { get; set; }
 
-        public EntidadIntermedia() { }
+        public MiddleEntity() { }
 
-        public EntidadIntermedia(TDependent dependent, THolder holder)
+        public MiddleEntity(TDependent dependent, THolder holder)
         {
             Holder = holder;
             IdHolder = Holder.Id;
