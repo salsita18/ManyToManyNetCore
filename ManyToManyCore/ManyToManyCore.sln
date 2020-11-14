@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyToManyCore", "ManyToManyCore\ManyToManyCore.csproj", "{05A2DEC1-0876-48BF-A909-0AC2C29575E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyCore.BasicExample1", "ManyToManyCore.BasicExample1\ManyToManyCore.BasicExample1.csproj", "{BA1BAE09-EFBD-47A4-80C6-98B61010F000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyToManyCore.BasicExample1", "ManyToManyCore.BasicExample1\ManyToManyCore.BasicExample1.csproj", "{BA1BAE09-EFBD-47A4-80C6-98B61010F000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToManyCore.TwoDirectionM2M", "ManyToManyCore.TwoDirectionM2M\ManyToManyCore.TwoDirectionM2M.csproj", "{7851616E-718D-4443-8FAF-F8389B9196BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA1BAE09-EFBD-47A4-80C6-98B61010F000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7851616E-718D-4443-8FAF-F8389B9196BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7851616E-718D-4443-8FAF-F8389B9196BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7851616E-718D-4443-8FAF-F8389B9196BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7851616E-718D-4443-8FAF-F8389B9196BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

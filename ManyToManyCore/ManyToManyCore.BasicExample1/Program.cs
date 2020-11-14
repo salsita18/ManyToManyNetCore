@@ -14,6 +14,12 @@ namespace ManyToManyCore.BasicExample1
 
             Job job = new Job();
             person.PersonToJob.AddIntermediate(job, person);
+
+            var wrappedPersona = new Person();
+            ICollection<Job> wrappedJobs = person.Jobs;
+
+            Job wrappedJob = new Job();
+            person.AddJob(job);
         }
     }
 }

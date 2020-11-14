@@ -8,11 +8,11 @@ namespace ManyToManyCore.BasicExample1
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<MiddleEntity<Job, Person, Guid, int>> PersonToJob { get; set; }
-        public ICollection<Job> Jobs => PersonToJob.ToDependent();
+        public ICollection<Job> Jobs => PersonToJob.ToEntity1();
 
-        public void AddJob(Job job)
+        public MiddleEntity<Job, Person, Guid, int> AddJob(Job job)
         {
-            PersonToJob.AddIntermediate(job, this);
+           return PersonToJob.AddIntermediate(job, this);
         }
     }
 }
